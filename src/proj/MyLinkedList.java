@@ -186,7 +186,8 @@ public class MyLinkedList {
         int coeff1 = -1;
         int coeff2 = -1;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Please enter degree and coefficiant for the first polynomial, type 0 to end");
+        System.out.println("Please enter degree and coefficiant for the first polynomial, type 0 to end.");
+        System.out.println("Press enter after writing the number.");
         while (coeff1 != 0) {
             coeff1 = scan.nextInt();
             if (coeff1 == 0) {
